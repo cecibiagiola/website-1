@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* ------ Inicio Navbar ------ */
+.contact-info{
+    background-color: #fff;
+    min-height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4px;
+}
+.contact-info p {
+    font-size: 8px;
+    margin-top: 4px; 
+    margin-left: 8px;
+    text-align: center;  
+}
+.info-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12px;
+    padding: 4px;
+    margin: 4px;
+}
+.logo{
+    width: 110px;
+    height: 50px;
+    margin-right: 50px;
+}
+
+#custom-navbar.navbar {
+    background-color: #fff;
+}
+.navbar-toggler{
+    border: none !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+
+/* ------ Fin Navbar ------ */
+
+/* ------ Inicio Hero ------ */
+
+.hero{
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    position: relative;
+}
+
+.section-one{
+    padding-left: 0;
+    height: 50%;
+    background-color: cadetblue;
+}
+.section-two{
+    height: 50%;
+    background-color: rgb(95, 160, 105);
+}
+
+/* ------ Fin Hero ------ */
+.information{
+    background-color: red;
+    width: 100%;
+    height: 100vh;
+}
