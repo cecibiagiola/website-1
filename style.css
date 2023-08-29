@@ -73,7 +73,7 @@
 
 .section-one{
     width: 100%;
-    height: 50%;
+    height: 100vh;
     z-index: 20;
     display: flex;
     flex-direction: column;
@@ -85,12 +85,12 @@
     font-size: 36px;
     font-weight: 600;
     z-index: 2;
-    text-align: start;
+    
 }
 .section-one p{
     color: #fff;
     z-index: 2;
-    text-align: start;
+    text-align: left;
 }
 
 .button{
@@ -118,4 +118,50 @@
     background-color: red;
     width: 100%;
     height: 100vh;
+}
+
+/* ------------------------ Nosotros ---------------------- */
+.banner-nosotros{
+    background-image: url("./img/1AA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    width: 100%;
+    height: 20vh;
+    margin-top: 130px;
+    position: relative;
+}
+
+.info-section{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0 10px 0;
+}
+.info-items-nosotros{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 5px ;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.biografia-section{
+    width: 100%;
+    height: 40vh;
+    background-color: #ffda0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.biografia-section p{
+    text-align: justify;
+    padding: 10px;
 }
